@@ -1,0 +1,24 @@
+1. @method('PUT');
+2. ACTION UPDATE ROUTE
+3. ROUTE ( DATA ID ) 
+
+if New File (old one delete) (new One update ) 
+ 
+TEXT DATA -> COLUMNS 
+Files -> Folders     
+---------------------------------------
+if( if file hase) 
+	if($prdocut->image
+---------------------------------------
+New text 
+---------------------------------------
+
+
+
+
+
+
+
+
+
+

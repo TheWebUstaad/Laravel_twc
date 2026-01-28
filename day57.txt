@@ -1,0 +1,107 @@
+Users : 
+
+Migration : 
+		 Database (File blue print)
+Model : 
+		Database table Name user -> id -> name -> email 
+Controller :
+		Backend Logic Queires 
+Views : 
+		Fornt-end View 
+Route: 
+		Urls  
+-----------------------------------------
+php artisan 
+-----------------------------------------
+( connection with db )
+database 
+-----------------------------------------
+php artisan make:migration create_admin_table
+php artisan migrate
+-----------------------------------------
+php artisan make:model User
+-----------------------------------------
+php artisan make:controller AdminController --resource
+-----------------------------------------
+Migration Controller Model Resoruce  
+
+php artisan make:model Category -mcr
+-----------------------------------------
+Views : 
+	Front-Website (resources-> views )
+	add.php x create.blade.php 
+-----------------------------------------
+Routes : Auto Created 
+------------------------------------------
+ route
+  route:cache               Create a route cache file for faster route registration     
+  route:clear               Remove the route cache file
+  route:list                List all registered routes
+
+---------------------------------------------------------
+header.php
+footer.php
+
+---------------------------------------------------------
+Route Resoruce  Auto gernate 
+
+Route With Controller 
+
+Route without controller (View)
+
+Route With Grouping 
+
+Route Names
+
+How To write Laravel in view File {{ Route('routename')}}
+
+header foooter x 
+
+Blade Tempatle layout.blade.php 
+
+
+Navbabr @yield('section') footer
+
+
+@extend('shop.layouts')
+
+@section('content')
+
+
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
